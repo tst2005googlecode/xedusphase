@@ -1,0 +1,4 @@
+- Create load/save system
+- Create maps
+
+- Fix the F12 bug, some people wont get it to fullscreen (Seems to happen to some)

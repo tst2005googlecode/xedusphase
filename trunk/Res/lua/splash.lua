@@ -1,0 +1,1 @@
+function love.draw()	love.graphics.draw(xedus1,150,200)	delay = delay - 1	if delay < 0 then	love.audio.play(shot)	love.graphics.draw(xedus2,150,200)	delaymenu = delaymenu - 1	end		if delaymenu < 0 then	love.filesystem.load("Res/lua/menu.lua")()	end	end
