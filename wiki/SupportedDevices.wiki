@@ -1,1 +1,1 @@
-=Supported Devices=
+==Wich devices are supported?==
