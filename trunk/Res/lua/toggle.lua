@@ -1,1 +1,0 @@
--- Optionsfunction FToggle()	if love.keyboard.isDown("f12") then		love.graphics.toggleFullscreen(false)	end		if love.keyboard.isDown("escape") then		love.event.push("q")	endend
