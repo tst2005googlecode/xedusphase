@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Love2D Download Client"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonlove"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download LOVE engine (Required)" />
+
+
+    <Button
+        android:id="@+id/buttongame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Phase (Required)" />
+
+
+    <Button
+        android:id="@+id/buttonmods"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Mods (Optional)" />
+
+
+    <Button
+        android:id="@+id/buttonblog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Blog" />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Xedus (C) 2012"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
