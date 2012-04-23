@@ -1,0 +1,1 @@
+Splash={}SplashSeconds = 100SplashMenuSeconds = 100function Splash:draw()	love.graphics.draw(xedus1,150,200)	SplashSeconds = SplashSeconds - 1		if SplashSeconds < 0 then			love.graphics.draw(xedus2,150,200)		--love.audio.play(shot)		SplashMenuSeconds = SplashMenuSeconds - 1			end		if SplashMenuSeconds < 0 then		DrawTurnTrue="Menu"		KeyTurnTrue="Menu"	endend
